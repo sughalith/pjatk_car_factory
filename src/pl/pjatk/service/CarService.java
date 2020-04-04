@@ -4,6 +4,7 @@ import pl.pjatk.model.Car;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 public class CarService {
     private List<Car> cars = new ArrayList<>();
@@ -25,7 +26,8 @@ public class CarService {
     }
 
     public Car findById(int id){
-        return null;
+        Optional<Car> foundCarr = cars.stream().filter(car -> car.getId() == id).findFirst();
+        return foundCarr.orElse(null);
     }
 
     public List<Car> findByModel(String model){
