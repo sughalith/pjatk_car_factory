@@ -8,6 +8,7 @@ public class Main {
         CarService carService = new CarService();
         carService.createCar(1, "passat");
         carService.createCar(2, "golf");
+        carService.createCar(2, "polo");
         System.out.println(carService.findAll());
     }
 }
