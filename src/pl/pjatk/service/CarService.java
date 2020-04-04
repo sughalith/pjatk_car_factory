@@ -25,9 +25,7 @@ public class CarService {
     }
 
     public Car findById(int id){
-
-        System.out.println("Im crushing your PR");
-        return new Car(1, "passat");
+        return id;
     }
 
     public List<Car> findByModel(String model){
