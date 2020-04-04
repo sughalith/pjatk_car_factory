@@ -25,7 +25,7 @@ public class CarService {
     }
 
     public Car findById(int id){
-        return null;
+        return cars.stream().filter(car -> car.getId() == id).findFirst().get();
     }
 
     public List<Car> findByModel(String model){
