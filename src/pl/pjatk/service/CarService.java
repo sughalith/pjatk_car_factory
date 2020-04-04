@@ -25,10 +25,8 @@ public class CarService {
     }
 
     public Car findById(int id){
-
         System.out.println("change something part 2");
         return null;
-
     }
 
     public List<Car> findByModel(String model){
