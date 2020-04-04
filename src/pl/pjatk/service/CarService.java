@@ -25,7 +25,7 @@ public class CarService {
     }
 
     public Car findById(int id){
-        return null;
+        return 1;
     }
 
     public List<Car> findByModel(String model){
