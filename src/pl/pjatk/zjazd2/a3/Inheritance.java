@@ -1,7 +1,5 @@
 package pl.pjatk.zjazd2.a3;
 
-import pl.pjatk.zjazd3.a1.NoPowerException;
-
 public class Inheritance {
     //Utworzyc klase samochod z polami (kola, drzwi, kierownica)
     //Utworzyc klase Tesla w która dziedziczy po samochodzie i dodatkowo posiada ładowarke i metode "ładuj"

@@ -1,7 +1,5 @@
 package pl.pjatk.zjazd2.a3;
 
-import pl.pjatk.zjazd3.a1.NoPowerException;
-
 public class ModelS extends Tesla implements SportCarInterface {
     private int horsePower;
 
